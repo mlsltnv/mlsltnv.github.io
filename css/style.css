@@ -55,3 +55,9 @@ p {color: white; font-size: 18px; font-family: Akzidenz-Grotesk Pro;
 .icons a {margin: 0px 10px;}
 .icons img {opacity: 0.48; transition: 0.75s;}
 .icons a:hover img {opacity: 0.90; transition: 0.16s;}
+
+@media screen and (max-width: 768px) {
+  .icons {
+  top: 20px;
+  }
+  }
