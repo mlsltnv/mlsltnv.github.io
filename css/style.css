@@ -58,6 +58,6 @@ p {color: white; font-size: 18px; font-family: Akzidenz-Grotesk Pro;
 
 @media screen and (max-width: 768px) {
   .icons {
-  top: 10px;
+  top: 15px;
   }
   }
