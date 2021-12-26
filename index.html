@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="fonts/stylesheet.css">
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.4.0/dist/lazyload.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -44,6 +45,23 @@
 
 </div> 
 
+<section class="preloader-wrapper">
+    <div class="preloader">
+      <p>l</p>
+      <p>o</p>
+      <p>a</p>
+      <p>d</p>
+      <p>i</p>
+      <p>n</p>
+      <p>g</p>
+    </div>
+ </section>
+
+ <script>
+     $(window).on("load",function(){
+        $(".preloader-wrapper").fadeOut("slow");
+     });
+ </script>
 
 
 </body>
